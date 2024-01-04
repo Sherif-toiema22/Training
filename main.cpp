@@ -23,7 +23,7 @@ int main()
  {
      int n,k;
      cin>>n>>k;
-     ll a[n+1],pre[n+1]={},ans=0;
+     ll a[n+1],pre[n+1],ans=0;
      int t[n+1];
      for(int i=1;i<=n;i++)
          cin>>a[i];
