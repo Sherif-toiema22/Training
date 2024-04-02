@@ -6,7 +6,22 @@ int main()
 {
  LetsGo;
  int x,y;cin>>x>>y;
- while() {
+ int sum=0,arr[y],l=0,r=0,mx=0;
+    for (int i = 0; i < x; ++i) {
+        cin>>arr[i];
+    }
+    sum+=arr[l];
+ while(r<x) {
+     if(sum>y){
+         sum-=arr[l];l++;
+     }
+     else {
+         mx = r - l;
+         r++;
+         sum += arr[r];
+
+     }
  }
+ cout<<mx;
  return 0;
 }
